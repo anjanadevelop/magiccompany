@@ -1,11 +1,13 @@
+
 <html>
 
 <head>
     <style>
-@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 html, body {
   height: 100%;
+  font-family: 'Honk', system-ui;
 }
 
 body {
@@ -6340,41 +6342,33 @@ body {
 
 svg{font-weight:bold;max-width:600px;height:100%;}
 
-.container {
-  font-family: arial;
-  font-size: 14px;
-  margin: 25px;
-  width: 350px;
-
-  outline: dashed 1px black;
-  /* Setup */
-  position: fixed;
-}
-
-.child {
-  width: auto;
-  
-  padding: 10px;
-  background-color: rgb(255, 255, 255);
-  /* Center vertically and horizontally */
+.brand
+{
+    color: white;
+  /* background: rgba(255, 0, 0, 0.649); */
+  padding: 15px;
   position: absolute;
-  top: 50%;
+  font-size: 29px;
+  top: 40%;
   left: 50%;
-  margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+
 }
     </style>
 </head>
 <body>
 
+    <div class="brand">
 
-    <div class="container">
-        <div class="child">
-           Magic Company: Coming soon
+       MAGIC COMPANY
+          <BR/>
+         <small> Coming soon</small>
+         
+          
 
-        </div>
-      </div>
-
-   
+    </div>
 
     <div class='wrap'>
         <div class='c'></div>
