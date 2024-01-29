@@ -17,22 +17,23 @@ body
     top: 0;
     left: 0;
     outline: none;
+  
 }
 
 .CORE
 {
     display: inline-block;
     position: fixed;
-    top: 0;
-    bottom: 0;
+    top: 20%;
+   
     left: 0;
     right: 0;
-    width: 500px;
-    height: 110px;
+   
     margin: auto;
     color: #FFF;
-    border-left: 2px solid #ffffff27;
-    padding-left: 5px;
+    /* border-left: 2px solid #ffffff27; */
+    /* padding-left: 5px; */
+    text-align: center;
   
 }
 h1
@@ -50,7 +51,7 @@ h1
     font-size: 1.9rem;
 -webkit-background-clip: text;
 color: transparent;
-text-shadow: 2px 2px rgb(255, 255, 255);
+
 
  
 }
@@ -58,10 +59,6 @@ h3{
     font-family: 'PT Serif', serif;
 }
 
-
-body{
-    cursor: crosshair;
-}
 
 
 /*# sourceMappingURL=main.css.map*/
